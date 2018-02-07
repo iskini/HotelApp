@@ -42,6 +42,8 @@ public class HotelModel {
 		new Hotel("Hotel Vendome","Place Vendome","Paris",5),
 		new Hotel("Hotel Hilton","Trafalgar Square","London",4),
 		new Hotel("Hotel Ibis","The City","London",3),
+		new Hotel("Hotel Cigogne","Grand place","",2),
+		new Hotel("Hotel Cigogne","Grand ),
 	};
 	
 	/**
@@ -61,6 +63,8 @@ public class HotelModel {
 		return hotelsFound;
 	}	
 	
+	
+
 	/**
 	 * Returns the list of cities in the database which have a hotel. 
 	 * @return a list of city names
